@@ -1,2 +1,5 @@
 project('X-ROT', 'c')
-executable('main', 'src/main.c')
+
+inc = include_directories('src/include')
+
+executable('main', 'src/main.c', include_directories: inc)

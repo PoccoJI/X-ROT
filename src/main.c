@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main()
+#include <typedefs.h>
+
+i32 main()
 {
     printf("Hello, World!\n");
 
