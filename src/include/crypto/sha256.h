@@ -3,8 +3,7 @@
 
 #include <typedefs.h>
 
-typedef struct _SHA256
-{
+typedef struct {
     u64 length;
     u64 buffer_length;
     u8 buffer[64];

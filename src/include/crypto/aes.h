@@ -6,7 +6,7 @@
 
 #define AES_BLOCK_SIZE 16
 
-typedef struct _AES {
+typedef struct {
     u8 number_of_rounds;
     u8 number_of_words; /* number of 32-bit words in cipher key */
     u8 iv[AES_BLOCK_SIZE];
